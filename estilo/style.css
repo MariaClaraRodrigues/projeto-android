@@ -63,9 +63,11 @@ nav {
 nav > a {
     color: var(--cor0);
     padding: 10px;
+    margin-left: 15px;
     border-radius: 3px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
     transition-duration: 0.5s;
 }
 nav > a:hover {
@@ -76,18 +78,19 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    margin-top: 50px;
     margin-bottom: 30px;
     padding: 20px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
+    text-align: center;
 }
 main h2 {
     font-family: var(--fonte-android);
